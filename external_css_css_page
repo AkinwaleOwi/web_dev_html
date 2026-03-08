@@ -15,3 +15,26 @@ do a:
 
 should be good
 ==============================================
+
+body 
+{
+  background-color: #BB133E;
+}
+
+h1 
+{
+  color: #ffd700;
+;
+}
+
+h2 
+{
+  color: #ffffff;
+}
+
+p 
+{
+  color: red;
+}
+
+
