@@ -18,6 +18,13 @@
     
 </Center>
 
-<body>
+<body> body = looking forward to having charts and other data representations on web pages </body>
+
+
+<div class="my-container">
+  
+    <h1>This is a heading inside of the sample_div container</h1>
+    <h3> We won't go into all the overwrite rules, but it did build this box and didn't overwrite any of our previously formatted text  </h3>
+  
     
-</body>
+</div>
