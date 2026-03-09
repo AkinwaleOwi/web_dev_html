@@ -2,7 +2,6 @@ codes
 ##############################
 tut plan
 
-
 do a:
 
 up = 3. h1, 
@@ -12,32 +11,61 @@ up = 1.p
 
 0, div
 
-
 2. body 
-
 
 should be good
 ==============================================
 
+
+
+
 body 
 {
-  background-color: #BB133E;
+  background-color: #87CEFA;
+    color: #f42222;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
 }
 
 h1 
 {
-  color: #ffd700;
-;
+  color: #241773;
+  font-family: Tahoma, sans-serif;  
 }
 
 h2 
 {
   color: #ffffff;
+  font-family: Times New Roman, serif;
+
+}
+
+
+h3
+{
+  color: #2E7D32;
+  font-family: Garamond, serif;
 }
 
 p 
 {
-  color: red;
+  color: yellow;
+  font-size: 40px;
+  font-family: Verdana, sans-serif;  
+    
 }
+
+.my-container 
+{
+    
+  border: 1px solid black;
+  padding: 10px;
+  background-color: yellow;
+  font-family: Brush Script MT, cursive;
+  
+}
+
+
+
 
 
