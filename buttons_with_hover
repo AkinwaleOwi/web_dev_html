@@ -18,22 +18,22 @@
 .LSU {
   background-color: white; 
   color: black; 
-  border: 2px solid #04AA6D;
+  border: 4px solid #FDD023;
 }
 
 .LSU:hover {
-  background-color: #04AA6D;
+  background-color: #461D7C;
   color: white;
 }
 
 .duke {
   background-color: white; 
   color: black; 
-  border: 2px solid #008CBA;
+  border: 4px solid #012169;
 }
 
 .duke:hover {
-  background-color: #008CBA;
+  background-color: #012169;
   color: white;
 }
 
@@ -43,9 +43,11 @@
 
 <h1>The button element - Styled with CSS</h1>
 
-<p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
-<p><strong>Tip:</strong> Use the transition-duration property to determine the speed of the "hover" effect:</p>
+<h2>Use the :hover selector to change the style of the button when you move the mouse over it.</h2>
 
+<h2><strong>Tip:</strong> Use the transition-duration property to determine the speed of the "hover" effect:</h2>
+
+<h2 style="color: purple;"> Another big game this friday, who you picking?</h2>
 <button class="button LSU">LSU</button>
 <button class="button duke">Duke</button>
 
