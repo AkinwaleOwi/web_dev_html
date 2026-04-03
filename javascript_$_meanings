@@ -1,0 +1,27 @@
+codes
+==========================
+1. A Valid Variable Name 
+In JavaScript, $ is a valid character for naming variables, functions, and objects—just like any letter. 
+
+As a variable: let $ = 100; or let price$ = 50; is perfectly legal code.
+Historical context: It was originally intended for use by code generators and macro processors to avoid conflicts with human-written variable names. 
+=====================================================================
+2. Template Literals (String Interpolation)
+When used inside backticks (`), the ${} syntax is used to insert variables or expressions directly into a string. 
+
+const name = "Alice";
+console.log(`Hello, ${name}!`); // Outputs: Hello, Alice!
+===============================================================
+3. jQuery Shorthand 
+By far the most common use of $ is as an alias for the jQuery library
+
+When you see code like $('.button').hide(), the $ is actually a function call to the jQuery library.
+It acts as a shortcut for the word jQuery, allowing you to select and manipulate HTML elements quickly.
+=============================================================
+4. Framework and Library Conventions
+
+Many other popular tools use $ as a naming convention to distinguish specific types of data: 
+
+AngularJS: Uses it to prefix built-in services (e.g., $scope, $http) to separate them from user-defined variables.
+Observables (RxJS): Developers often end a variable name with $ (e.g., data$) to indicate that the variable is an "Observable" stream.
+Browser Console: In modern browser consoles, $(selector) is a built-in shortcut for document.querySelector
