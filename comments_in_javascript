@@ -1,0 +1,9 @@
+codes
+================================================
+
+// this is a single line commennt
+
+/* 
+   This is a multi-line comment.
+   It can span as many lines as needed.
+*/
