@@ -1,0 +1,15 @@
+codes
+===========================================
+
+Quick Comparison
+_________________________________
+           
+Feature:       	   a. onclick in HTML (Inline)  ~~~~~b.onclick in JavaScript (Property) ~~~~~~ c.addEventListener('click') (JS)
+______________________________________________________________________________________________________________________
+0.Where it lives:	 0a. Inside the HTML tag	         0b. Inside a <script> or .js file	       0c. Inside a <script> or .js file
+
+1.Limit:	         1a.Only one function              1b. Only one (overwrites others)	         1c.Multiple functions allowed
+
+2. Maintenance:	  2a. Hard; mixed logic/markup	     2b. Easier; logic is separate	           2c. Easiest; cleanest separation
+
+3. Ease of use:	  3a. Good for quick demos	         3b. Moderate	                             3c. Standard for modern projects
