@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Easy difficulty Cat Trivia Quiz #0 </title>
+  <link rel="stylesheet" href="easy_style.css">
+</head>
+    
+<body>
+
+  <div id="timer">Time: 3:00</div>
+
+  <h1>Welcome to Web Cat Trivia by Greene Aeration!</h1>  
+  <h1>Easy difficulty quiz #0!!!</h1>
+
+  <div id="quiz"></div>
+
+  <div id="navButtons">
+    <button onclick="prevQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div id="submitContainer">
+    <button id = "submitBtn" onclick="submitQuiz()">Submit Quiz</button>
+  </div>
+
+  <div id="result"></div>
+  <button id="retryBtn" onclick="retryQuiz()" style="display:none;">Retry Quiz</button>
+  <div id="review"></div>
+
+  <script src="javascript_easy.js"></script>
+</body>
+    
+</html>
