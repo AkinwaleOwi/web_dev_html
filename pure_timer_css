@@ -43,3 +43,8 @@ h1
 {
     color: #ffffff;
 }
+
+h2
+{
+    color: #FC4C02
+}
